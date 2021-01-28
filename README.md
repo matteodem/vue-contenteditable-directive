@@ -7,12 +7,12 @@ First of all - if you can use a textarea or input with v-model, do that instead.
 * Formatting is generally more extensible in a contenteditable div
 
 ## Usage 
-``` 
+```js
 import contenteditableDirective from 'vue-contenteditable-directive'
 //...
 Vue.use(contenteditableDirective)
 ```
-```
+```vue
 <template>
   <div v-contenteditable:message="isEnabled" />
 </template>
